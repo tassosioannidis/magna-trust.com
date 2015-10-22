@@ -1,0 +1,295 @@
+﻿.hero-services{
+	height: 500px;
+	position: relative;
+	z-index:1;
+	display: table;
+	vertical-align: middle;
+	width:100%;
+	overflow: hidden;
+	background: url(../../assets/img/services/Hero-Unit.jpg) bottom center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.hero-trading{
+	height: 600px;
+	position: relative;
+	z-index:1;
+	display: table;
+	vertical-align: middle;
+	width:100%;
+	overflow: hidden;
+	background: url(../../assets/img/services/magna-trust-services_stat.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.hero-binary{
+	height: 600px;
+	position: relative;
+	z-index:1;
+	display: table;
+	vertical-align: middle;
+	width:100%;
+	overflow: hidden;
+	background: url(../../assets/img/services/magna-trust-services-binary.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.hero-order{
+	height: 600px;
+	position: relative;
+	z-index:1;
+	display: table;
+	vertical-align: middle;
+	width:100%;
+	overflow: hidden;
+	background: url(../../assets/img/services/magna-trust-services-order.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.hero-custodian{
+	height: 600px;
+	position: relative;
+	z-index:1;
+	display: table;
+	vertical-align: middle;
+	width:100%;
+	overflow: hidden;
+	background: url(../../assets/img/services/magna-trust-services-custodian.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
+.hero-credit {
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    overflow: hidden;
+    background: url(../../assets/img/services/magna-trust-services-credit.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.hero-advisory {
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    overflow: hidden;
+    background: url(../../assets/img/services/magna-trust-services-advisory.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.hero-account {
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    overflow: hidden;
+    background: url(../../assets/img/services/magna-trust-services-account.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-getintouch{
+    height: 925px;
+    position: relative;
+    z-index: 1;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    overflow: hidden;
+    background: url(../../assets/img/contact/magna-trust-contact_getintouch.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.padcontactleft {
+
+ 
+    padding-top:60px;
+    display:block;
+    background-color:rgba(8, 8, 8, 0.32)
+}
+
+
+
+.padcontactright {
+
+    padding-top:20px;
+    display:block;
+    background-color:rgba(8, 8, 8, 0.54)
+}
+
+.padimg{
+
+    padding-right:16px;
+
+}
+
+.padimg2{
+
+    padding-right:14px;
+
+}
+
+
+.custmarg{
+
+    margin-top:58px;
+}
+
+option{
+
+   color: white;
+   background-color: rgba(8, 8, 8, 0.54);
+}
+
+
+
+/*////////////////////////////////////////
+//////// Used in footer////////////////////////////////////////*/
+.spanft{
+
+    font-size:18px!important;    
+}
+/*////////////////////////////////////////
+//////// Used in Services////////////////////////////////////////*/
+.spangt{  
+
+    color:#d6b588;   
+}
+
+.nopadleft{
+
+    padding-left:0px!important;
+}
+.btnwidth{
+
+    min-width:256px;
+}
+
+/*
+////////////////////////////////////////
+////////// Form Inline SECTION /////////////
+////////////////////////////////////////
+*/
+
+.form-inline .form-group select,
+    .form-inline .form-group input
+ {
+    float: none;
+    
+    padding:10px!important;
+    background-color:rgba(0, 0, 0, 0.33)!important;
+    height:42px!important;
+    border-color:#304c7d!important;
+	color:#7e9ace!important;
+}
+
+.form-inline .form-group{
+
+   padding-top:22px!important;
+   padding-left:0!important;
+   width:100%!important;
+}
+
+.form-control{
+
+    width:100%!important;
+}
+
+
+
+::-webkit-input-placeholder {
+
+ color: #7e9ace!important;
+ 
+}
+:-moz-placeholder { /* older Firefox*/
+
+ color: #7e9ace!important;
+ }
+
+::-moz-placeholder { /* Firefox 19+ */ 
+
+ color: #7e9ace!important;
+
+} 
+:-ms-input-placeholder { 
+
+  color: #7e9ace!important;
+
+}
+ 
+#registration_form  textarea{
+    padding: 10px!important;
+	height:107px!important;
+    background-color: rgba(0, 0, 0, 0.33)!important;
+    border-color: #304c7d!important;
+    color: #7e9ace!important;
+    width:100%!important;
+}
+
+#btnSubmit{
+
+padding-top:10px;
+
+}
+
+.paddspan{
+
+padding-top:10px;
+
+}
+.paddicons{
+
+padding-top:20px;
+
+}
+
+.paddsub{
+
+padding-top:55px;
+
+}
+
+#section-home > div > div > div > div > div > div > div > div.row.custmarg.text-center > div.col-xs-12.col-sm-12.col-md-8.padcontactright > img {
+
+    max-width:100%;
+}

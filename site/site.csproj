@@ -182,6 +182,7 @@
     <Content Include="GR\menu.aspx" />
     <Content Include="GR\services.aspx" />
     <Content Include="header.aspx" />
+    <Content Include="magna-team.aspx" />
     <Content Include="menu.aspx" />
     <Content Include="obj\Debug\site.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\site.dll" />
