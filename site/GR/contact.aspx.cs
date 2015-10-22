@@ -122,7 +122,7 @@ namespace site.GR
 
                     bool mailRes = mailSend("Contact MagnaTrust", "info@magna-trust.com", mailto, messageBody);
 
-                    mailSend("Contact MagnaTrust", "info@magna-trust.com", mailto, messageBody);
+                   // mailSend("Contact MagnaTrust", "info@magna-trust.com", mailto, messageBody);
 
                     Response.Redirect("thankyou-gr.aspx");
 
