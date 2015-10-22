@@ -67,6 +67,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="arrow_icon.png" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\font-awesome.css" />
@@ -168,7 +169,9 @@
     <Content Include="bin\site.pdb" />
     <Content Include="career.aspx" />
     <Content Include="company.aspx" />
+    <Content Include="contact-helex.aspx" />
     <Content Include="contact.aspx" />
+    <Content Include="favicon.ico" />
     <Content Include="financialdata.aspx" />
     <Content Include="GR\career.aspx" />
     <Content Include="GR\company.aspx" />
@@ -212,6 +215,7 @@
     <Content Include="footer.aspx" />
     <Content Include="Global.asax" />
     <Content Include="services.aspx" />
+    <Content Include="thankyou-en.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
