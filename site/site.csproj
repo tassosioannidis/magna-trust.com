@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1E00237-56C1-4265-A0C4-2744952A6FA6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>site</RootNamespace>
+    <AssemblyName>site</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.css" />
+    <Content Include="assets\css\_notes\dwsync.xml" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\img\arrow_icon.png" />
+    <Content Include="assets\img\careers\dot-net-dev.png" />
+    <Content Include="assets\img\careers\down_arrow_icon.png" />
+    <Content Include="assets\img\careers\magna-trust-careers.jpg" />
+    <Content Include="assets\img\careers\magna-trust-careers_01.jpg" />
+    <Content Include="assets\img\careers\Rounded Rectangle.png" />
+    <Content Include="assets\img\careers\Rounded-Rectangle.png" />
+    <Content Include="assets\img\careers\SEO-manager.png" />
+    <Content Include="assets\img\careers\Social Media-Manager.png" />
+    <Content Include="assets\img\careers\Social-Media-Manager.png" />
+    <Content Include="assets\img\careers\Web-dev.png" />
+    <Content Include="assets\img\company\arrow.png" />
+    <Content Include="assets\img\company\icon-team-with-eclipse.png" />
+    <Content Include="assets\img\company\icon-team.png" />
+    <Content Include="assets\img\company\Layer 13.png" />
+    <Content Include="assets\img\company\magna-trust-company.jpg" />
+    <Content Include="assets\img\company\magna-trust-company_01.jpg" />
+    <Content Include="assets\img\contact\fax-with-circle.png" />
+    <Content Include="assets\img\contact\fax.png" />
+    <Content Include="assets\img\contact\icon_office.png" />
+    <Content Include="assets\img\contact\magna-trust-contact.jpg" />
+    <Content Include="assets\img\contact\magna-trust-contact_footer_01_02.jpg" />
+    <Content Include="assets\img\contact\magna-trust-contact_getintouch.jpg" />
+    <Content Include="assets\img\contact\magna-trust-footer2_02.jpg" />
+    <Content Include="assets\img\contact\mail-with-circle.png" />
+    <Content Include="assets\img\contact\mail.png" />
+    <Content Include="assets\img\contact\tel-with-circle.png" />
+    <Content Include="assets\img\contact\tel.png" />
+    <Content Include="assets\img\fb_footer_icon.png" />
+    <Content Include="assets\img\fb_icon.png" />
+    <Content Include="assets\img\financial\4093.png" />
+    <Content Include="assets\img\financial\chart.png" />
+    <Content Include="assets\img\financial\Hero-Unit.jpg" />
+    <Content Include="assets\img\financial\magna-trust-financial-data.jpg" />
+    <Content Include="assets\img\financial\pdf copy.png" />
+    <Content Include="assets\img\financial\pie-chart.png" />
+    <Content Include="assets\img\FooterLogo.png" />
+    <Content Include="assets\img\HeaderLogo.png" />
+    <Content Include="assets\img\home_icon.png" />
+    <Content Include="assets\img\ln_footer_icon.png" />
+    <Content Include="assets\img\ln_icon.png" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\magna-trust-contact_footer_bg.jpg" />
+    <Content Include="assets\img\magna-trust-home_02.png" />
+    <Content Include="assets\img\magna-trust-home_bg_img.jpg" />
+    <Content Include="assets\img\magna-trust-home_bg_img.png" />
+    <Content Include="assets\img\magna-trust-home_bg_img2.jpg" />
+    <Content Include="assets\img\magna-trust-home_divider.png" />
+    <Content Include="assets\img\magna-trust-home_divider1.png" />
+    <Content Include="assets\img\magna-trust-home_divider2.png" />
+    <Content Include="assets\img\magna-trust-home_img1.png" />
+    <Content Include="assets\img\magna-trust-home_img2.png" />
+    <Content Include="assets\img\magna-trust-home_img3.jpg" />
+    <Content Include="assets\img\magna-trust-home_right.png" />
+    <Content Include="assets\img\pattern.png" />
+    <Content Include="assets\img\phone.png" />
+    <Content Include="assets\img\Rounded-Rectangle.png" />
+    <Content Include="assets\img\search_icon.png" />
+    <Content Include="assets\img\services\Hero-Unit.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_02.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_03.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_04.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_05.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_06.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_07.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_08.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-1_09.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-account.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-advisory.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-binary.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-credit.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-custodian.jpg" />
+    <Content Include="assets\img\services\magna-trust-services-order.jpg" />
+    <Content Include="assets\img\services\magna-trust-services.jpg" />
+    <Content Include="assets\img\services\magna-trust-services_stat.jpg" />
+    <Content Include="assets\img\tw_icon.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery.validate.min.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\themes\style.css" />
+    <Content Include="assets\themes\stylenm.css" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\site.dll" />
+    <Content Include="bin\site.pdb" />
+    <Content Include="career.aspx" />
+    <Content Include="company.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="financialdata.aspx" />
+    <Content Include="GR\career.aspx" />
+    <Content Include="GR\company.aspx" />
+    <Content Include="GR\contact.aspx" />
+    <Content Include="GR\contact2.aspx" />
+    <Content Include="GR\default.aspx" />
+    <Content Include="GR\financialdata.aspx" />
+    <Content Include="GR\footer.aspx" />
+    <Content Include="GR\header.aspx" />
+    <Content Include="GR\magna-team.aspx" />
+    <Content Include="GR\menu.aspx" />
+    <Content Include="GR\services.aspx" />
+    <Content Include="header.aspx" />
+    <Content Include="menu.aspx" />
+    <Content Include="obj\Debug\site.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\site.dll" />
+    <Content Include="obj\Debug\site.pdb" />
+    <Content Include="packages.config" />
+    <Content Include="assets\css\bootstrap.css.map" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="bin\site.dll.config" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\site.csprojResolveAssemblyReference.cache" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default.aspx" />
+    <Content Include="footer.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="services.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="career.aspx.cs">
+      <DependentUpon>career.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="career.aspx.designer.cs">
+      <DependentUpon>career.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company.aspx.cs">
+      <DependentUpon>company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company.aspx.designer.cs">
+      <DependentUpon>company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="financialdata.aspx.cs">
+      <DependentUpon>financialdata.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="financialdata.aspx.designer.cs">
+      <DependentUpon>financialdata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="footer.aspx.cs">
+      <DependentUpon>footer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="footer.aspx.designer.cs">
+      <DependentUpon>footer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GR\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GR\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="header.aspx.cs">
+      <DependentUpon>header.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="header.aspx.designer.cs">
+      <DependentUpon>header.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services.aspx.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services.aspx.designer.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51974</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51974/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
